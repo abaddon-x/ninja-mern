@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 });
 
 // routes
-app.use("https://ninja-mern-server.vercel.app/api/workouts", workoutRoutes);
+app.use("/api/workouts", workoutRoutes);
 
 // connect to db
 mongoose
