@@ -13,7 +13,7 @@ const WorkoutForm = () => {
     e.preventDefault();
     const workout = { title, load, reps };
 
-    const response = await fetch("https://ninja-mern-server.vercel.app/api/workouts", {
+    const response = await fetch("/api/workouts", {
       method: "POST",
       body: JSON.stringify(workout),
       headers: {
