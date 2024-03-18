@@ -1,5 +1,5 @@
 {
-  "proxy": "https://ninja-mern-server.vercel.app/",
+  "proxy": "https://ninja-mern-server.vercel.app/api/workouts",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
